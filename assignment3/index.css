@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none; 
+}
+body{
+    margin: 40px 60px ;
+    border-width: 10px 0 0 0;
+    border-style: solid;
+    border-color: rgb(0, 255, 255);
+    }
+.container{
+    display: flex;
+    gap: 50px;
+    flex-direction:row;
+    width: fit-content;
+    justify-content: flex-end;
+}
+.main{
+    width: 600px;
+}
+.top{
+    background-color: yellow;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: px;
+    margin-left: 10px;
+    position:absolute ;
+    top: -10px;
+}
+.lead{
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    width: fit-content;
+}
+nav{
+    background-color: rgb(192, 204, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: none;
+    height: 60px;
+}
+h1,h2{
+    color: #0000ff;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+.web {
+    display: flex;
+    color: #0000ff;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;    
+}
+.relates{
+    background-color: #f0ffff;
+    border-width: 5px 0;
+    border-style: solid;
+    border-color: #0000ff ;
+    margin: 15px 0 ;
+    width: 400px;
+    position: relative;
+    padding: 10px 0 10px 0;
+    justify-items: center;
+    list-style-type: none;
+    height: 450px;
+}
+.like{
+bottom:-500px;
+right: -70s0px;
+position:absolute;
+height: 40px;
+width: 30px;
+}
+
+
+
